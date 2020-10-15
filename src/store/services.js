@@ -1,6 +1,6 @@
 import axios from "axios"
 const hellomobileNovemberAPI = axios.create({
-  baseURL: "https://hello-mobile-novemb-13380-prod.herokuapp.com/",
+  baseURL: "https://hello-mobile-novemb-13380.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
